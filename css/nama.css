@@ -1,0 +1,2117 @@
+nama-chat-widget {
+  font-family: \'Akkurat Pro\'; }
+  nama-chat-widget html {
+    box-sizing: border-box; }
+  nama-chat-widget *,
+  nama-chat-widget *::before,
+  nama-chat-widget *::after {
+    box-sizing: inherit; }
+  nama-chat-widget body {
+    margin: 0; }
+  nama-chat-widget html {
+    box-sizing: border-box; }
+  nama-chat-widget *,
+  nama-chat-widget *::before,
+  nama-chat-widget *::after {
+    box-sizing: inherit; }
+  nama-chat-widget body {
+    margin: 0; }
+  nama-chat-widget pre .str, nama-chat-widget code .str {
+    color: #00BFA5; }
+  nama-chat-widget pre .kwd, nama-chat-widget code .kwd {
+    color: #F50057; }
+  nama-chat-widget pre .com, nama-chat-widget code .com {
+    color: #AEAEAE;
+    font-style: italic; }
+  nama-chat-widget pre .typ, nama-chat-widget code .typ {
+    color: #F50057; }
+  nama-chat-widget pre .lit, nama-chat-widget code .lit {
+    color: #2979FF; }
+  nama-chat-widget pre .pun, nama-chat-widget code .pun {
+    color: #fff; }
+  nama-chat-widget pre .pln, nama-chat-widget code .pln {    color: #fff; }
+  nama-chat-widget pre .tag, nama-chat-widget code .tag {
+    color: #2979FF; }
+  nama-chat-widget pre .atn, nama-chat-widget code .atn {
+    color: #FFB300; }
+  nama-chat-widget pre .atv, nama-chat-widget code .atv {
+    color: #00BFA5; }
+  nama-chat-widget pre .dec, nama-chat-widget code .dec {
+    color: #2979FF; }
+  nama-chat-widget pre.prettyprint.inline {
+    display: inline-block;
+    padding: 7px;
+    margin: 0px;
+    border: none; }
+    nama-chat-widget pre.prettyprint.inline pre, nama-chat-widget pre.prettyprint.inline xmp, nama-chat-widget pre.prettyprint.inline plaintext, nama-chat-widget pre.prettyprint.inline listing {
+      display: block;
+      white-space: pre;
+      margin: 0px; }
+  nama-chat-widget pre.prettyprint {
+    background-color: #2F3335;
+    padding: 20px;
+    border: none;
+    box-sizing: border-box;
+    white-space: pre-wrap; }
+    nama-chat-widget pre.prettyprint pre, nama-chat-widget pre.prettyprint xmp, nama-chat-widget pre.prettyprint plaintext, nama-chat-widget pre.prettyprint listing {
+      display: block;
+      white-space: pre;
+      margin: 0px; }
+    nama-chat-widget pre.prettyprint .pln:first-child, nama-chat-widget pre.prettyprint .pln:last-child {
+      display: none; }
+  nama-chat-widget ol.linenums {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #AEAEAE; }
+  nama-chat-widget li.L0, nama-chat-widget li.L1, nama-chat-widget li.L2, nama-chat-widget li.L3, nama-chat-widget li.L5, nama-chat-widget li.L6, nama-chat-widget li.L7, nama-chat-widget li.L8 {
+    list-style-type: none; }
+  @media print {
+    nama-chat-widget pre .str, nama-chat-widget code .str {
+      color: #060; }
+    nama-chat-widget pre .kwd, nama-chat-widget code .kwd {
+      color: #006;
+      font-weight: bold; }
+    nama-chat-widget pre .com, nama-chat-widget code .com {
+      color: #600;
+      font-style: italic; }
+    nama-chat-widget pre .typ, nama-chat-widget code .typ {
+      color: #404;
+      font-weight: bold; }
+    nama-chat-widget pre .lit, nama-chat-widget code .lit {
+      color: #044; }
+    nama-chat-widget pre .pun, nama-chat-widget code .pun {
+      color: #440; }
+    nama-chat-widget pre .pln, nama-chat-widget code .pln {
+      color: #000; }
+    nama-chat-widget pre .tag, nama-chat-widget code .tag {
+      color: #006;
+      font-weight: bold; }
+    nama-chat-widget pre .atn, nama-chat-widget code .atn {
+      color: #404; }
+    nama-chat-widget pre .atv, nama-chat-widget code .atv {
+      color: #060; } }
+  nama-chat-widget pre .str, nama-chat-widget code .str {
+    color: #00BFA5; }
+  nama-chat-widget pre .kwd, nama-chat-widget code .kwd {
+    color: #F50057; }
+  nama-chat-widget pre .com, nama-chat-widget code .com {
+    color: #AEAEAE;
+    font-style: italic; }
+  nama-chat-widget pre .typ, nama-chat-widget code .typ {
+    color: #F50057; }
+  nama-chat-widget pre .lit, nama-chat-widget code .lit {
+    color: #2979FF; }
+  nama-chat-widget pre .pun, nama-chat-widget code .pun {
+    color: #fff; }
+  nama-chat-widget pre .pln, nama-chat-widget code .pln {
+    color: #fff; }
+  nama-chat-widget pre .tag, nama-chat-widget code .tag {
+    color: #2979FF; }
+  nama-chat-widget pre .atn, nama-chat-widget code .atn {
+    color: #FFB300; }
+  nama-chat-widget pre .atv, nama-chat-widget code .atv {
+    color: #00BFA5; }
+  nama-chat-widget pre .dec, nama-chat-widget code .dec {
+    color: #2979FF; }
+  nama-chat-widget pre.prettyprint.inline {
+    display: inline-block;
+    padding: 7px;
+    margin: 0px;
+    border: none; }
+    nama-chat-widget pre.prettyprint.inline pre, nama-chat-widget pre.prettyprint.inline xmp, nama-chat-widget pre.prettyprint.inline plaintext, nama-chat-widget pre.prettyprint.inline listing {
+      display: block;
+      white-space: pre;
+      margin: 0px; }
+  nama-chat-widget pre.prettyprint {
+    background-color: #2F3335;
+    padding: 20px;
+    border: none;
+    box-sizing: border-box;
+    white-space: pre-wrap; }
+    nama-chat-widget pre.prettyprint pre, nama-chat-widget pre.prettyprint xmp, nama-chat-widget pre.prettyprint plaintext, nama-chat-widget pre.prettyprint listing {
+      display: block;
+      white-space: pre;
+      margin: 0px; }
+    nama-chat-widget pre.prettyprint .pln:first-child, nama-chat-widget pre.prettyprint .pln:last-child {
+      display: none; }
+  nama-chat-widget ol.linenums {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #AEAEAE; }
+  nama-chat-widget li.L0, nama-chat-widget li.L1, nama-chat-widget li.L2, nama-chat-widget li.L3, nama-chat-widget li.L5, nama-chat-widget li.L6, nama-chat-widget li.L7, nama-chat-widget li.L8 {
+    list-style-type: none; }
+  @media print {
+    nama-chat-widget pre .str, nama-chat-widget code .str {
+      color: #060; }
+    nama-chat-widget pre .kwd, nama-chat-widget code .kwd {
+      color: #006;
+      font-weight: bold; }
+    nama-chat-widget pre .com, nama-chat-widget code .com {
+      color: #600;
+      font-style: italic; }
+    nama-chat-widget pre .typ, nama-chat-widget code .typ {
+      color: #404;
+      font-weight: bold; }
+    nama-chat-widget pre .lit, nama-chat-widget code .lit {
+      color: #044; }
+    nama-chat-widget pre .pun, nama-chat-widget code .pun {
+      color: #440; }
+    nama-chat-widget pre .pln, nama-chat-widget code .pln {
+      color: #000; }
+    nama-chat-widget pre .tag, nama-chat-widget code .tag {
+      color: #006;
+      font-weight: bold; }
+    nama-chat-widget pre .atn, nama-chat-widget code .atn {
+      color: #404; }
+    nama-chat-widget pre .atv, nama-chat-widget code .atv {
+      color: #060; } }
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0); }
+  to {
+    opacity: 1;
+    transform: none; } }
+  nama-chat-widget .fade-in-up {
+    animation-name: fadeInUp;
+    animation-duration: 0.3s;
+    -webkit-animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    visibility: visible !important; }
+
+@keyframes bounceInLeft {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  0% {
+    opacity: 0;
+    transform: translate3d(-3000px, 0, 0); }
+  60% {
+    transform: translate3d(25px, 0, 0); }
+  75% {
+    transform: translate3d(-10px, 0, 0); }
+  90% {
+    opacity: 1;
+    transform: translate3d(5px, 0, 0); }
+  to {
+    transform: none; } }
+  nama-chat-widget .bounce-in-left {
+    animation-name: bounceInLeft;
+    animation-duration: 0.3s;
+    -webkit-animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out; }
+
+@keyframes bounceOutRight {
+  20% {
+    opacity: 1;
+    transform: translate3d(-20px, 0, 0); }
+  to {
+    opacity: 0;
+    transform: translate3d(2000px, 0, 0); } }
+  nama-chat-widget .bounce-out-right {
+    animation-name: bounceOutRight;
+    animation-duration: 0.5s;
+    -webkit-animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    visibility: hidden !important; }
+
+@keyframes bounceInRight {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  from {
+    opacity: 0;
+    transform: translate3d(3000px, 0, 0); }
+  60% {
+    opacity: 1;
+    transform: translate3d(-25px, 0, 0); }
+  75% {
+    transform: translate3d(10px, 0, 0); }
+  90% {
+    transform: translate3d(-5px, 0, 0); }
+  to {
+    transform: none; } }
+  nama-chat-widget .bounce-in-right {
+    animation-name: bounceInRight;
+    animation-duration: 0.6s;
+    -webkit-animation-duration: 0.6s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    visibility: visible !important; }
+
+@keyframes bounceInUp {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  from {
+    opacity: 0;
+    transform: translate3d(0, 3000px, 0); }
+  60% {
+    opacity: 1;
+    transform: translate3d(0, -20px, 0); }
+  75% {
+    transform: translate3d(0, 10px, 0); }
+  90% {
+    transform: translate3d(0, -5px, 0); }
+  to {
+    transform: translate3d(0, 0, 0); } }
+  nama-chat-widget .bounce-in-up {
+    animation-name: bounceInUp;
+    animation-duration: 0.6s;
+    -webkit-animation-duration: 0.6s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    visibility: visible !important; }
+
+@keyframes fadeOut {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+  nama-chat-widget .fade-out {
+    animation-name: fadeOut;
+    animation-duration: 0.6s;
+    -webkit-animation-duration: 0.6s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    opacity: 0; }
+
+@keyframes slideOutUp {
+  from {
+    transform: translate3d(0, 0, 0); }
+  to {
+    visibility: hidden;
+    transform: translate3d(0, -100%, 0); } }
+  nama-chat-widget .slide-out-up {
+    animation-name: slideOutUp;
+    animation-duration: 0.6s;
+    -webkit-animation-duration: 0.6s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    visibility: visible !important; }
+
+@keyframes bounceOutUp {
+  20% {
+    transform: translate3d(0, -10px, 0); }
+  40%,
+  45% {
+    opacity: 1;
+    transform: translate3d(0, 20px, 0); }
+  to {
+    opacity: 0;
+    transform: translate3d(0, -2000px, 0); } }
+  nama-chat-widget .bounce-out-up {
+    animation-name: bounceOutUp;
+    animation-duration: 0.6s;
+    -webkit-animation-duration: 0.6s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    visibility: visible !important; }
+
+@keyframes bounceInLeft {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  0% {
+    opacity: 0;
+    transform: translate3d(-3000px, 0, 0); }
+  60% {
+    opacity: 1;
+    transform: translate3d(25px, 0, 0); }
+  75% {
+    transform: translate3d(-10px, 0, 0); }
+  90% {
+    transform: translate3d(5px, 0, 0); }
+  to {
+    transform: none; } }
+  nama-chat-widget .bounce-in-left {
+    animation-name: bounceInLeft;
+    animation-duration: 0.6s;
+    -webkit-animation-duration: 0.6s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    visibility: visible !important; }
+  nama-chat-widget .stretchLeft {
+    animation-name: stretchLeft;
+    -webkit-animation-name: stretchLeft;
+    animation-duration: .5s;
+    -webkit-animation-duration: .5s;
+    animation-timing-function: ease-out;
+    -webkit-animation-timing-function: ease-out;
+    transform-origin: 100% 0%;
+    -ms-transform-origin: 100% 0%;
+    -webkit-transform-origin: 100% 0%; }
+
+@keyframes stretchLeft {
+  0% {
+    transform: scaleX(0.3); }
+  40% {
+    transform: scaleX(1.02); }
+  60% {
+    transform: scaleX(0.98); }
+  80% {
+    transform: scaleX(1.01); }
+  100% {
+    transform: scaleX(0.98); }
+  80% {
+    transform: scaleX(1.01); }
+  100% {
+    transform: scaleX(1); } }
+
+@-webkit-keyframes stretchLeft {
+  0% {
+    -webkit-transform: scaleX(0.3); }
+  40% {
+    -webkit-transform: scaleX(1.02); }
+  60% {
+    -webkit-transform: scaleX(0.98); }
+  80% {
+    -webkit-transform: scaleX(1.01); }
+  100% {
+    -webkit-transform: scaleX(0.98); }
+  80% {
+    -webkit-transform: scaleX(1.01); }
+  100% {
+    -webkit-transform: scaleX(1); } }
+  nama-chat-widget .slideUp {
+    animation-name: slideUp;
+    -webkit-animation-name: slideUp;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-timing-function: ease;
+    -webkit-animation-timing-function: ease;
+    visibility: visible !important; }
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(100%); }
+  50% {
+    transform: translateY(-8%); }
+  65% {
+    transform: translateY(4%); }
+  80% {
+    transform: translateY(-4%); }
+  95% {
+    transform: translateY(2%); }
+  100% {
+    transform: translateY(0%); } }
+
+@-webkit-keyframes slideUp {
+  0% {
+    -webkit-transform: translateY(100%); }
+  50% {
+    -webkit-transform: translateY(-8%); }
+  65% {
+    -webkit-transform: translateY(4%); }
+  80% {
+    -webkit-transform: translateY(-4%); }
+  95% {
+    -webkit-transform: translateY(2%); }
+  100% {
+    -webkit-transform: translateY(0%); } }
+  nama-chat-widget .shake-box {
+    animation-name: tossing;
+    -webkit-animation-name: tossing;
+    display: block;
+    animation-duration: .6s;
+    -webkit-animation-duration: .6s;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite; }
+
+@keyframes tossing {
+  0% {
+    transform: rotate(-24deg); }
+  50% {
+    transform: rotate(24deg); }
+  100% {
+    transform: rotate(-24deg); } }
+
+@-webkit-keyframes tossing {
+  0% {
+    -webkit-transform: rotate(-24deg); }
+  50% {
+    -webkit-transform: rotate(24deg); }
+  100% {
+    -webkit-transform: rotate(-24deg); } }
+  nama-chat-widget .slideLeft {
+    animation-name: slideLeft;
+    -webkit-animation-name: slideLeft;
+    animation-duration: 0.6s;
+    -webkit-animation-duration: 0.6s;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    visibility: visible !important; }
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(150%); }
+  50% {
+    transform: translateX(-8%); }
+  65% {
+    transform: translateX(4%); }
+  80% {
+    transform: translateX(-4%); }
+  95% {
+    transform: translateX(2%); }
+  100% {
+    transform: translateX(0%); } }
+
+@-webkit-keyframes slideLeft {
+  0% {
+    -webkit-transform: translateX(150%); }
+  50% {
+    -webkit-transform: translateX(-8%); }
+  65% {
+    -webkit-transform: translateX(4%); }
+  80% {
+    -webkit-transform: translateX(-4%); }
+  95% {
+    -webkit-transform: translateX(2%); }
+  100% {
+    -webkit-transform: translateX(0%); } }
+  nama-chat-widget .flip-container {
+    perspective: 1000; }
+  nama-chat-widget .flip-container.flip .flipper {
+    transform: rotateY(180deg); }
+  nama-chat-widget .flip-container,
+  nama-chat-widget .front,
+  nama-chat-widget .back {
+    width: 50px;
+    height: 50px;
+    display: block; }
+  nama-chat-widget .flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative; }
+  nama-chat-widget .front,
+  nama-chat-widget .back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0; }
+  nama-chat-widget .front {
+    z-index: 2;
+    /* for firefox 31 */
+    transform: rotateY(0deg); }
+  nama-chat-widget .back {
+    transform: rotateY(180deg); }
+  nama-chat-widget .hidden {
+    visibility: hidden;
+    height: 0px; }
+  nama-chat-widget * {
+    outline: none;
+    font-size: 14px;
+    transition: none;
+    box-sizing: content-box; }
+  nama-chat-widget div {
+    box-sizing: content-box; }
+  nama-chat-widget input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important; }
+  nama-chat-widget nama-chat-avatar {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    position: fixed;
+    transition: all 0.3s ease-in-out;
+    width: 54px;
+    height: 54px;
+    z-index: 9000; }
+    nama-chat-widget nama-chat-avatar * {
+      box-sizing: border-box; }
+    nama-chat-widget nama-chat-avatar.show {
+      bottom: 16px;
+      right: 16px; }
+    nama-chat-widget nama-chat-avatar.hide {
+      bottom: 16px;
+      right: -320px; }
+    nama-chat-widget nama-chat-avatar .notification {
+      overflow: hidden;
+      visibility: hidden;
+      display: block;
+      position: absolute;
+      height: 42px;
+      border-radius: 40px;
+      font-family: "Source Sans Pro", "Open Sans", sans-serif;
+      margin-top: 9px;
+      transition: all 0.6s ease-in-out;
+      right: 70px;
+      bottom: 8px; }
+      nama-chat-widget nama-chat-avatar .notification.hide {
+        opacity: 0; }
+      nama-chat-widget nama-chat-avatar .notification.show {
+        opacity: 1; }
+      nama-chat-widget nama-chat-avatar .notification p {
+        display: block;
+        width: 260px;
+        margin: 0px;
+        height: 42px;
+        line-height: 42px;
+        padding-left: 8px;
+        padding-right: 8px;
+        text-align: center;
+        font-size: 14px; }
+    nama-chat-widget nama-chat-avatar .coin {
+      display: block;
+      width: 54px;
+      height: 54px;
+      border-radius: 27px;
+      border: none;
+      position: absolute;
+      transition: all 0.6s ease-in-out;
+      overflow: hidden;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      background-color: #000;
+      -webkit-perspective: 1000px;
+      perspective: 1000px; }
+      nama-chat-widget nama-chat-avatar .coin.flip {
+        transform-style: preserve-3d; }
+        nama-chat-widget nama-chat-avatar .coin.flip.out {
+          transform: rotateY(180deg);
+          opacity: 0;
+          z-index: 1010; }
+        nama-chat-widget nama-chat-avatar .coin.flip.in {
+          transform: rotateY(0deg);
+          opacity: 1;
+          z-index: 1050; }
+      nama-chat-widget nama-chat-avatar .coin.hand {
+        background-color: #fff; }
+        nama-chat-widget nama-chat-avatar .coin.hand .avatar-container svg {
+          width: calc(112% - 16px); }
+      nama-chat-widget nama-chat-avatar .coin .avatar-container {
+        box-sizing: border-box;
+        width: 100%;
+        text-align: center;
+        height: 100%; }
+        nama-chat-widget nama-chat-avatar .coin .avatar-container img {
+          width: 100%; }
+        nama-chat-widget nama-chat-avatar .coin .avatar-container svg {
+          margin-top: 5px;
+          width: calc(100% - 16px);
+          padding: 8px; }
+  nama-chat-widget nama-chat-box {
+    position: fixed;
+    bottom: 86px;
+    right: 16px;
+    width: 320px;
+    z-index: 100000;
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    /* Pretty printing styles. Used with prettify.js. */
+    /* Vim sunburst theme by David Leibovic */
+    /* string  - green */
+    /* keyword - dark pink */
+    /* comment - gray */
+    /* type - light blue */
+    /* literal - blue */
+    /* punctuation - white */
+    /* plaintext - white */
+    /* html/xml tag    - light blue */
+    /* html/xml attribute name  - khaki */
+    /* html/xml attribute value - green */
+    /* decimal - blue */
+    /* Specify class=linenums on a pre to get line numbering */
+    /* IE indents via margin-left */
+    /* Alternate shading for lines */
+    /* Pretty printing styles. Used with prettify.js. */
+    /* Vim sunburst theme by David Leibovic */
+    /* string  - green */
+    /* keyword - dark pink */
+    /* comment - gray */
+    /* type - light blue */
+    /* literal - blue */
+    /* punctuation - white */
+    /* plaintext - white */
+    /* html/xml tag    - light blue */
+    /* html/xml attribute name  - khaki */
+    /* html/xml attribute value - green */
+    /* decimal - blue */
+    /* Specify class=linenums on a pre to get line numbering */
+    /* IE indents via margin-left */
+    /* Alternate shading for lines */ }
+    nama-chat-widget nama-chat-box #nama-webview {
+      position: absolute;
+      border: none;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.7); }
+      nama-chat-widget nama-chat-box #nama-webview.full .webview-container {
+        height: calc(100% - 40px); }
+      nama-chat-widget nama-chat-box #nama-webview.tall .webview-container {
+        height: 85%; }
+      nama-chat-widget nama-chat-box #nama-webview.compact .webview-container {
+        height: 55%; }
+      nama-chat-widget nama-chat-box #nama-webview .webview-container {
+        transition: all 0.3s ease-in-out;
+        width: 100%;
+        border-radius: 8px 8px 0px 0px;
+        background: #fff;
+        overflow: hidden;
+        position: absolute;
+        bottom: 0px;
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.4); }
+        nama-chat-widget nama-chat-box #nama-webview .webview-container.close {
+          bottom: 100%; }
+        nama-chat-widget nama-chat-box #nama-webview .webview-container .webview-header {
+          height: 24px; }
+          nama-chat-widget nama-chat-box #nama-webview .webview-container .webview-header h1 {
+            width: calc(100% - 36px);
+            float: left;
+            padding: 0px 20px;
+            text-overflow: ellipsis;
+            box-sizing: border-box;
+            overflow: hidden;
+            white-space: nowrap; }
+          nama-chat-widget nama-chat-box #nama-webview .webview-container .webview-header .webview-close {
+            font-size: 15px;
+            font-weight: 100;
+            width: 36px;
+            cursor: pointer;
+            float: right;
+            text-align: center;
+            padding: 9px 0px; }
+        nama-chat-widget nama-chat-box #nama-webview .webview-container iframe {
+          border: none;
+          width: 100%;
+          height: calc(100% - 24px); }
+    nama-chat-widget nama-chat-box.relative {
+      position: relative !important;
+      height: 100% !important;
+      bottom: 0px !important;
+      right: 0px !important;
+      left: 0px !important; }
+    nama-chat-widget nama-chat-box.opened {
+      height: calc(100vh - 64px);
+      bottom: 16px;
+      right: 16px; }
+    nama-chat-widget nama-chat-box.mobile.close {
+      height: 0px !important; }
+    nama-chat-widget nama-chat-box.mobile.full, nama-chat-widget nama-chat-box.mobile.opened {
+      height: 100vh;
+      width: 100vw;
+      border-radius: 0px;
+      bottom: 0px !important;
+      right: 0px !important;
+      left: 0px !important; }
+      nama-chat-widget nama-chat-box.mobile.full nama-header, nama-chat-widget nama-chat-box.mobile.opened nama-header {
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        box-sizing: border-box; }
+      nama-chat-widget nama-chat-box.mobile.full nama-messages, nama-chat-widget nama-chat-box.mobile.opened nama-messages {
+        margin-top: 48px;
+        padding-top: 80px; }
+    nama-chat-widget nama-chat-box.mobile nama-input .text-input textarea {
+      width: calc(100% - 32px) !important; }
+    nama-chat-widget nama-chat-box.mobile nama-input .text-input button {
+      display: block !important; }
+    nama-chat-widget nama-chat-box.close {
+      height: 0px;
+      bottom: 86px;
+      right: 16px; }
+    nama-chat-widget nama-chat-box.full {
+      height: 100vh;
+      width: 100vw;
+      bottom: 0px;
+      right: 0px;
+      border-radius: 0px; }
+      nama-chat-widget nama-chat-box.full nama-messages .message.user .template .text {
+        float: left; }
+    nama-chat-widget nama-chat-box.hover {
+      height: calc(50vh - 96px);
+      bottom: 86px;
+      right: 16px; }
+    nama-chat-widget nama-chat-box nama-header {
+      display: block;
+      padding: 8px;
+      box-sizing: content-box; }
+      nama-chat-widget nama-chat-box nama-header .title {
+        width: calc(100% - 128px);
+        margin-left: 64px;
+        text-align: center;
+        float: left; }
+        nama-chat-widget nama-chat-box nama-header .title h2 {
+          margin: 0px;
+          font-size: 13.76px;
+          line-height: 17px; }
+        nama-chat-widget nama-chat-box nama-header .title h5 {
+          font-weight: 200;
+          margin: 0px;
+          font-size: 10.32px;
+          line-height: 12px;
+          margin-top: 2px; }
+      nama-chat-widget nama-chat-box nama-header .actions {
+        width: 22px;
+        height: 22px;
+        margin: 4px;
+        float: right;
+        display: block;
+        opacity: 1 !important;
+        cursor: pointer; }
+        nama-chat-widget nama-chat-box nama-header .actions svg {
+          width: 22px;
+          height: 22px; }
+    nama-chat-widget nama-chat-box nama-input {
+      display: block;
+      width: 100%; }
+      nama-chat-widget nama-chat-box nama-input #card-form {
+        height: 210px; }
+        nama-chat-widget nama-chat-box nama-input #card-form h1,
+        nama-chat-widget nama-chat-box nama-input #card-form span,
+        nama-chat-widget nama-chat-box nama-input #card-form .card-form-content {
+          width: 100%;
+          display: block; }
+        nama-chat-widget nama-chat-box nama-input #card-form h1 {
+          font-size: 13px;
+          margin: 0;
+          height: 29px;
+          padding: 8px;
+          font-weight: 100;
+          text-align: center; }
+        nama-chat-widget nama-chat-box nama-input #card-form .card-form-content {
+          height: 136px;
+          max-width: 360px;
+          margin: 0px auto; }
+          nama-chat-widget nama-chat-box nama-input #card-form .card-form-content .card-input-row {
+            width: calc(100% - 40px);
+            height: 36px;
+            margin: 6px 20px; }
+          nama-chat-widget nama-chat-box nama-input #card-form .card-form-content .card-form-input {
+            position: relative;
+            overflow: hidden;
+            padding: 0px;
+            width: 100%;
+            background: #fff;
+            border: 1px solid #C9CBCB;
+            border-radius: 4px;
+            height: 36px; }
+          nama-chat-widget nama-chat-box nama-input #card-form .card-form-content .card-form-input.validade {
+            float: left;
+            width: 26%; }
+          nama-chat-widget nama-chat-box nama-input #card-form .card-form-content .card-form-input.cvv {
+            float: left;
+            width: 26%;
+            margin-left: 3%; }
+          nama-chat-widget nama-chat-box nama-input #card-form .card-form-content .card-form-input.send {
+            float: right;
+            width: 42%;
+            border: none; }
+          nama-chat-widget nama-chat-box nama-input #card-form .card-form-content input,
+          nama-chat-widget nama-chat-box nama-input #card-form .card-form-content textarea {
+            font-family: "Source Sans Pro", "Open Sans", sans-serif;
+            width: 100%;
+            border: none;
+            background: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            height: 36px;
+            outline: 0; }
+            nama-chat-widget nama-chat-box nama-input #card-form .card-form-content input:focus, nama-chat-widget nama-chat-box nama-input #card-form .card-form-content input:valid,
+            nama-chat-widget nama-chat-box nama-input #card-form .card-form-content textarea:focus,
+            nama-chat-widget nama-chat-box nama-input #card-form .card-form-content textarea:valid {
+              padding: 18px 9px 5px 9px;
+              font-size: 13px;
+              height: initial;
+              width: calc(100% - 18px); }
+            nama-chat-widget nama-chat-box nama-input #card-form .card-form-content input:focus + label,
+            nama-chat-widget nama-chat-box nama-input #card-form .card-form-content input:valid + label,
+            nama-chat-widget nama-chat-box nama-input #card-form .card-form-content textarea:focus + label,
+            nama-chat-widget nama-chat-box nama-input #card-form .card-form-content textarea:valid + label {
+              z-index: 2;
+              top: 4px;
+              height: 10px;
+              line-height: 10px;
+              font-size: 9px; }
+          nama-chat-widget nama-chat-box nama-input #card-form .card-form-content label {
+            font-family: "Source Sans Pro", "Open Sans", sans-serif;
+            transition: background 0.2s, color 0.2s, top 0.2s, bottom 0.2s, right 0.2s, left 0.2s;
+            position: absolute;
+            color: #C9CBCB;
+            width: calc(100% - 20px);
+            margin-left: 1px;
+            top: 0;
+            left: 0;
+            height: 36px;
+            font-size: 13px;
+            line-height: 36px;
+            display: block; }
+        nama-chat-widget nama-chat-box nama-input #card-form span {
+          font-family: "Source Sans Pro", "Open Sans", sans-serif;
+          height: 12px;
+          background: #C9CBCB;
+          padding: 0px 10px;
+          font-size: 10px;
+          color: #fff;
+          line-height: 12px;
+          text-align: right; }
+          nama-chat-widget nama-chat-box nama-input #card-form span i {
+            float: right; }
+            nama-chat-widget nama-chat-box nama-input #card-form span i svg {
+              width: 16px;
+              height: 14px;
+              fill: #fff; }
+      nama-chat-widget nama-chat-box nama-input .choices {
+        padding: 8px 8px 0px 8px; }
+        nama-chat-widget nama-chat-box nama-input .choices .choices-wrapper {
+          max-height: 172px;
+          overflow-y: auto;
+          width: 100%;
+          display: flex;
+          flex-wrap: wrap; }
+          nama-chat-widget nama-chat-box nama-input .choices .choices-wrapper a {
+            float: left;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: normal; }
+      nama-chat-widget nama-chat-box nama-input .brand {
+        height: 33px;
+        padding: 0px 20px;
+        text-align: right;
+        float: right; }
+        nama-chat-widget nama-chat-box nama-input .brand span {
+          float: left;
+          height: 29px;
+          line-height: 24px;
+          font-size: 11px; }
+        nama-chat-widget nama-chat-box nama-input .brand i {
+          float: left;
+          width: 51px;
+          height: 29px;
+          display: block; }
+          nama-chat-widget nama-chat-box nama-input .brand i svg {
+            width: 51px; }
+      nama-chat-widget nama-chat-box nama-input .text-input {
+        padding: 8px;
+        height: 44px; }
+        nama-chat-widget nama-chat-box nama-input .text-input .input-wrapper {
+          width: 100%;
+          border-radius: 20px;
+          padding: 8px 16px;
+          height: 44px;
+          box-sizing: border-box; }
+          nama-chat-widget nama-chat-box nama-input .text-input .input-wrapper button {
+            position: relative;
+            left: calc(100% - 36px);
+            bottom: 27px;
+            width: 22px;
+            height: 22px;
+            border: none;
+            display: none;
+            background-color: transparent; }
+          nama-chat-widget nama-chat-box nama-input .text-input .input-wrapper textarea {
+            -webkit-appearance: none;
+            height: 26px;
+            font-weight: normal;
+            width: 100%;
+            display: table;
+            box-shadow: none !important;
+            border: none;
+            background-color: transparent;
+            font-size: 14px;
+            line-height: 22px;
+            resize: none !important; }
+    nama-chat-widget nama-chat-box html {
+      box-sizing: border-box; }
+    nama-chat-widget nama-chat-box *,
+    nama-chat-widget nama-chat-box *::before,
+    nama-chat-widget nama-chat-box *::after {
+      box-sizing: inherit; }
+    nama-chat-widget nama-chat-box body {
+      margin: 0; }
+    nama-chat-widget nama-chat-box html {
+      box-sizing: border-box; }
+    nama-chat-widget nama-chat-box *,
+    nama-chat-widget nama-chat-box *::before,
+    nama-chat-widget nama-chat-box *::after {
+      box-sizing: inherit; }
+    nama-chat-widget nama-chat-box body {
+      margin: 0; }
+    nama-chat-widget nama-chat-box pre .str, nama-chat-widget nama-chat-box code .str {
+      color: #00BFA5; }
+    nama-chat-widget nama-chat-box pre .kwd, nama-chat-widget nama-chat-box code .kwd {
+      color: #F50057; }
+    nama-chat-widget nama-chat-box pre .com, nama-chat-widget nama-chat-box code .com {
+      color: #AEAEAE;
+      font-style: italic; }
+    nama-chat-widget nama-chat-box pre .typ, nama-chat-widget nama-chat-box code .typ {
+      color: #F50057; }
+    nama-chat-widget nama-chat-box pre .lit, nama-chat-widget nama-chat-box code .lit {
+      color: #2979FF; }
+    nama-chat-widget nama-chat-box pre .pun, nama-chat-widget nama-chat-box code .pun {
+      color: #fff; }
+    nama-chat-widget nama-chat-box pre .pln, nama-chat-widget nama-chat-box code .pln {
+      color: #fff; }
+    nama-chat-widget nama-chat-box pre .tag, nama-chat-widget nama-chat-box code .tag {
+      color: #2979FF; }
+    nama-chat-widget nama-chat-box pre .atn, nama-chat-widget nama-chat-box code .atn {
+      color: #FFB300; }
+    nama-chat-widget nama-chat-box pre .atv, nama-chat-widget nama-chat-box code .atv {
+      color: #00BFA5; }
+    nama-chat-widget nama-chat-box pre .dec, nama-chat-widget nama-chat-box code .dec {
+      color: #2979FF; }
+    nama-chat-widget nama-chat-box pre.prettyprint.inline {
+      display: inline-block;
+      padding: 7px;
+      margin: 0px;
+      border: none; }
+      nama-chat-widget nama-chat-box pre.prettyprint.inline pre, nama-chat-widget nama-chat-box pre.prettyprint.inline xmp, nama-chat-widget nama-chat-box pre.prettyprint.inline plaintext, nama-chat-widget nama-chat-box pre.prettyprint.inline listing {
+        display: block;
+        white-space: pre;
+        margin: 0px; }
+    nama-chat-widget nama-chat-box pre.prettyprint {
+      background-color: #2F3335;
+      padding: 20px;
+      border: none;
+      box-sizing: border-box;
+      white-space: pre-wrap; }
+      nama-chat-widget nama-chat-box pre.prettyprint pre, nama-chat-widget nama-chat-box pre.prettyprint xmp, nama-chat-widget nama-chat-box pre.prettyprint plaintext, nama-chat-widget nama-chat-box pre.prettyprint listing {
+        display: block;
+        white-space: pre;
+        margin: 0px; }
+      nama-chat-widget nama-chat-box pre.prettyprint .pln:first-child, nama-chat-widget nama-chat-box pre.prettyprint .pln:last-child {
+        display: none; }
+    nama-chat-widget nama-chat-box ol.linenums {
+      margin-top: 0;
+      margin-bottom: 0;
+      color: #AEAEAE; }
+    nama-chat-widget nama-chat-box li.L0, nama-chat-widget nama-chat-box li.L1, nama-chat-widget nama-chat-box li.L2, nama-chat-widget nama-chat-box li.L3, nama-chat-widget nama-chat-box li.L5, nama-chat-widget nama-chat-box li.L6, nama-chat-widget nama-chat-box li.L7, nama-chat-widget nama-chat-box li.L8 {
+      list-style-type: none; }
+    @media print {
+      nama-chat-widget nama-chat-box pre .str, nama-chat-widget nama-chat-box code .str {
+        color: #060; }
+      nama-chat-widget nama-chat-box pre .kwd, nama-chat-widget nama-chat-box code .kwd {
+        color: #006;
+        font-weight: bold; }
+      nama-chat-widget nama-chat-box pre .com, nama-chat-widget nama-chat-box code .com {
+        color: #600;
+        font-style: italic; }
+      nama-chat-widget nama-chat-box pre .typ, nama-chat-widget nama-chat-box code .typ {
+        color: #404;
+        font-weight: bold; }
+      nama-chat-widget nama-chat-box pre .lit, nama-chat-widget nama-chat-box code .lit {
+        color: #044; }
+      nama-chat-widget nama-chat-box pre .pun, nama-chat-widget nama-chat-box code .pun {
+        color: #440; }
+      nama-chat-widget nama-chat-box pre .pln, nama-chat-widget nama-chat-box code .pln {
+        color: #000; }
+      nama-chat-widget nama-chat-box pre .tag, nama-chat-widget nama-chat-box code .tag {
+        color: #006;
+        font-weight: bold; }
+      nama-chat-widget nama-chat-box pre .atn, nama-chat-widget nama-chat-box code .atn {
+        color: #404; }
+      nama-chat-widget nama-chat-box pre .atv, nama-chat-widget nama-chat-box code .atv {
+        color: #060; } }
+    nama-chat-widget nama-chat-box pre .str, nama-chat-widget nama-chat-box code .str {
+      color: #00BFA5; }
+    nama-chat-widget nama-chat-box pre .kwd, nama-chat-widget nama-chat-box code .kwd {
+      color: #F50057; }
+    nama-chat-widget nama-chat-box pre .com, nama-chat-widget nama-chat-box code .com {
+      color: #AEAEAE;
+      font-style: italic; }
+    nama-chat-widget nama-chat-box pre .typ, nama-chat-widget nama-chat-box code .typ {
+      color: #F50057; }
+    nama-chat-widget nama-chat-box pre .lit, nama-chat-widget nama-chat-box code .lit {
+      color: #2979FF; }
+    nama-chat-widget nama-chat-box pre .pun, nama-chat-widget nama-chat-box code .pun {
+      color: #fff; }
+    nama-chat-widget nama-chat-box pre .pln, nama-chat-widget nama-chat-box code .pln {
+      color: #fff; }
+    nama-chat-widget nama-chat-box pre .tag, nama-chat-widget nama-chat-box code .tag {
+      color: #2979FF; }
+    nama-chat-widget nama-chat-box pre .atn, nama-chat-widget nama-chat-box code .atn {
+      color: #FFB300; }
+    nama-chat-widget nama-chat-box pre .atv, nama-chat-widget nama-chat-box code .atv {
+      color: #00BFA5; }
+    nama-chat-widget nama-chat-box pre .dec, nama-chat-widget nama-chat-box code .dec {
+      color: #2979FF; }
+    nama-chat-widget nama-chat-box pre.prettyprint.inline {
+      display: inline-block;
+      padding: 7px;
+      margin: 0px;
+      border: none; }
+      nama-chat-widget nama-chat-box pre.prettyprint.inline pre, nama-chat-widget nama-chat-box pre.prettyprint.inline xmp, nama-chat-widget nama-chat-box pre.prettyprint.inline plaintext, nama-chat-widget nama-chat-box pre.prettyprint.inline listing {
+        display: block;
+        white-space: pre;
+        margin: 0px; }
+    nama-chat-widget nama-chat-box pre.prettyprint {
+      background-color: #2F3335;
+      padding: 20px;
+      border: none;
+      box-sizing: border-box;
+      white-space: pre-wrap; }
+      nama-chat-widget nama-chat-box pre.prettyprint pre, nama-chat-widget nama-chat-box pre.prettyprint xmp, nama-chat-widget nama-chat-box pre.prettyprint plaintext, nama-chat-widget nama-chat-box pre.prettyprint listing {
+        display: block;
+        white-space: pre;
+        margin: 0px; }
+      nama-chat-widget nama-chat-box pre.prettyprint .pln:first-child, nama-chat-widget nama-chat-box pre.prettyprint .pln:last-child {
+        display: none; }
+    nama-chat-widget nama-chat-box ol.linenums {
+      margin-top: 0;
+      margin-bottom: 0;
+      color: #AEAEAE; }
+    nama-chat-widget nama-chat-box li.L0, nama-chat-widget nama-chat-box li.L1, nama-chat-widget nama-chat-box li.L2, nama-chat-widget nama-chat-box li.L3, nama-chat-widget nama-chat-box li.L5, nama-chat-widget nama-chat-box li.L6, nama-chat-widget nama-chat-box li.L7, nama-chat-widget nama-chat-box li.L8 {
+      list-style-type: none; }
+    @media print {
+      nama-chat-widget nama-chat-box pre .str, nama-chat-widget nama-chat-box code .str {
+        color: #060; }
+      nama-chat-widget nama-chat-box pre .kwd, nama-chat-widget nama-chat-box code .kwd {
+        color: #006;
+        font-weight: bold; }
+      nama-chat-widget nama-chat-box pre .com, nama-chat-widget nama-chat-box code .com {
+        color: #600;
+        font-style: italic; }
+      nama-chat-widget nama-chat-box pre .typ, nama-chat-widget nama-chat-box code .typ {
+        color: #404;
+        font-weight: bold; }
+      nama-chat-widget nama-chat-box pre .lit, nama-chat-widget nama-chat-box code .lit {
+        color: #044; }
+      nama-chat-widget nama-chat-box pre .pun, nama-chat-widget nama-chat-box code .pun {
+        color: #440; }
+      nama-chat-widget nama-chat-box pre .pln, nama-chat-widget nama-chat-box code .pln {
+        color: #000; }
+      nama-chat-widget nama-chat-box pre .tag, nama-chat-widget nama-chat-box code .tag {
+        color: #006;
+        font-weight: bold; }
+      nama-chat-widget nama-chat-box pre .atn, nama-chat-widget nama-chat-box code .atn {
+        color: #404; }
+      nama-chat-widget nama-chat-box pre .atv, nama-chat-widget nama-chat-box code .atv {
+        color: #060; } }
+    nama-chat-widget nama-chat-box nama-chat-widget h1, nama-chat-widget nama-chat-box nama-chat-widget h2, nama-chat-widget nama-chat-box nama-chat-widget h3, nama-chat-widget nama-chat-box nama-chat-widget h4, nama-chat-widget nama-chat-box nama-chat-widget h5, nama-chat-widget nama-chat-box nama-chat-widget p, nama-chat-widget nama-chat-box nama-chat-widget div, nama-chat-widget nama-chat-box nama-chat-widget input, nama-chat-widget nama-chat-box nama-chat-widget textarea, nama-chat-widget nama-chat-box nama-chat-widget span {
+      font-family: "Source Sans Pro", "Open Sans", sans-serif; }
+    nama-chat-widget nama-chat-box nama-chat-widget nama-chat-avatar .notification {
+      background: #fff;
+      color: #2962FF;
+      -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.4);
+      -moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.4);
+      box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.4); }
+    nama-chat-widget nama-chat-box nama-chat-widget nama-chat-avatar .coin {
+      -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.4);
+      -moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.4);
+      box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.4); }
+      nama-chat-widget nama-chat-box nama-chat-widget nama-chat-avatar .coin.bot {
+        background-color: #2962FF; }
+    nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box {
+      float: right;
+      -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.4);
+      -moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.4);
+      box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.4); }
+      nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-header {
+        background: #fff;
+        border-bottom: 1px solid #E3E3E3; }
+        nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-header .title h2 {
+          font-family: "Source Sans Pro", "Open Sans", sans-serif;
+          color: #000; }
+        nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-header .title h5 {
+          font-family: "Source Sans Pro", "Open Sans", sans-serif;
+          color: #404040; }
+      nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-input {
+        background: #fff;
+        border-top: 1px solid #E3E3E3; }
+        nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-input #card-form button {
+          box-sizing: border-box;
+          margin: 4px;
+          appearance: none;
+          background-color: #2962FF;
+          border: 0;
+          border-radius: 5px;
+          color: #FFF;
+          cursor: pointer;
+          display: inline-block;
+          font-family: "Source Sans Pro", "Open Sans", sans-serif;
+          -webkit-font-smoothing: antialiased;
+          text-align: center;
+          text-decoration: none;
+          transition: box-shadow 150ms ease, background-color 150ms ease;
+          user-select: none;
+          vertical-align: middle;
+          white-space: nowrap;
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 1;
+          padding: 0.75em 1.5em;
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 1;
+          padding: 0.6em 1.2em;
+          border-radius: 20px;
+          padding: 7px 16px;
+          background-color: transparent;
+          margin: 0px;
+          width: 100%; }
+          nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-input #card-form button.small {
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 1;
+            padding: 0.6em 1.2em; }
+          nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-input #card-form button.full {
+            width: 100%; }
+          nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-input #card-form button.rouded {
+            border-radius: 20px; }
+          nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-input #card-form button:hover {
+            background-color: #2558e6;
+            color: #FFF;
+            -webkit-box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25);
+            -moz-box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25);
+            box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25); }
+          nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-input #card-form button:focus {
+            outline: none;
+            -webkit-box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25);
+            -moz-box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25);
+            box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25); }
+          nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-input #card-form button:disabled {
+            cursor: not-allowed;
+            opacity: 0.5; }
+            nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-input #card-form button:disabled:hover {
+              background-color: #2962FF; }
+        nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-input .choices .choices-wrapper {
+          background-color: transparent; }
+          nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-input .choices .choices-wrapper a {
+            margin: 4px;
+            appearance: none;
+            background-color: #2962FF;
+            border: 0;
+            border-radius: 5px;
+            color: #FFF;
+            cursor: pointer;
+            display: inline-block;
+            font-family: "Source Sans Pro", "Open Sans", sans-serif;
+            -webkit-font-smoothing: antialiased;
+            text-align: center;
+            text-decoration: none;
+            transition: box-shadow 150ms ease, background-color 150ms ease;
+            user-select: none;
+            vertical-align: middle;
+            white-space: nowrap;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 1;
+            padding: 0.75em 1.5em;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 1;
+            padding: 0.6em 1.2em;
+            border-radius: 20px; }
+            nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-input .choices .choices-wrapper a.small {
+              font-size: 14px;
+              font-weight: 600;
+              line-height: 1;
+              padding: 0.6em 1.2em; }
+            nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-input .choices .choices-wrapper a.full {
+              width: 100%; }
+            nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-input .choices .choices-wrapper a.rouded {
+              border-radius: 20px; }
+            nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-input .choices .choices-wrapper a:hover {
+              background-color: #2558e6;
+              color: #FFF;
+              -webkit-box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25);
+              -moz-box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25);
+              box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25); }
+            nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-input .choices .choices-wrapper a:focus {
+              outline: none;
+              -webkit-box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25);
+              -moz-box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25);
+              box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25); }
+            nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-input .choices .choices-wrapper a:disabled {
+              cursor: not-allowed;
+              opacity: 0.5; }
+              nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-input .choices .choices-wrapper a:disabled:hover {
+                background-color: #2962FF; }
+        nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-input .brand span {
+          font-family: "Source Sans Pro", "Open Sans", sans-serif !important;
+          font-size: 11px !important;
+          cursor: pointer; }
+        nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-input .text-input .input-wrapper {
+          border: 1px solid #E3E3E3; }
+          nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-input .text-input .input-wrapper textarea {
+            color: #000; }
+      nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-messages {
+        background: #fff; }
+        nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-messages .cards .card {
+          background: #E3E3E3; }
+          nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-messages .cards .card .buttons a {
+            margin: 4px;
+            appearance: none;
+            background-color: #2962FF;
+            border: 0;
+            border-radius: 5px;
+            color: #FFF;
+            cursor: pointer;
+            display: inline-block;
+            font-family: "Source Sans Pro", "Open Sans", sans-serif;
+            -webkit-font-smoothing: antialiased;
+            text-align: center;
+            text-decoration: none;
+            transition: box-shadow 150ms ease, background-color 150ms ease;
+            user-select: none;
+            vertical-align: middle;
+            white-space: nowrap;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 1;
+            padding: 0.75em 1.5em;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 1;
+            padding: 0.6em 1.2em;
+            border-radius: 20px; }
+            nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-messages .cards .card .buttons a.small {
+              font-size: 14px;
+              font-weight: 600;
+              line-height: 1;
+              padding: 0.6em 1.2em; }
+            nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-messages .cards .card .buttons a.full {
+              width: 100%; }
+            nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-messages .cards .card .buttons a.rouded {
+              border-radius: 20px; }
+            nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-messages .cards .card .buttons a:hover {
+              background-color: #2558e6;
+              color: #FFF;
+              -webkit-box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25);
+              -moz-box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25);
+              box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25); }
+            nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-messages .cards .card .buttons a:focus {
+              outline: none;
+              -webkit-box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25);
+              -moz-box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25);
+              box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25); }
+            nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-messages .cards .card .buttons a:disabled {
+              cursor: not-allowed;
+              opacity: 0.5; }
+              nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-messages .cards .card .buttons a:disabled:hover {
+                background-color: #2962FF; }
+        nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-messages .quick-replies a {
+          margin: 4px;
+          appearance: none;
+          background-color: #2962FF;
+          border: 0;
+          border-radius: 5px;
+          color: #FFF;
+          cursor: pointer;
+          display: inline-block;
+          font-family: "Source Sans Pro", "Open Sans", sans-serif;
+          -webkit-font-smoothing: antialiased;
+          text-align: center;
+          text-decoration: none;
+          transition: box-shadow 150ms ease, background-color 150ms ease;
+          user-select: none;
+          vertical-align: middle;
+          white-space: nowrap;
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 1;
+          padding: 0.75em 1.5em;
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 1;
+          padding: 0.6em 1.2em;
+          border-radius: 20px; }
+          nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-messages .quick-replies a.small {
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 1;
+            padding: 0.6em 1.2em; }
+          nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-messages .quick-replies a.full {
+            width: 100%; }
+          nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-messages .quick-replies a.rouded {
+            border-radius: 20px; }
+          nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-messages .quick-replies a:hover {
+            background-color: #2558e6;
+            color: #FFF;
+            -webkit-box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25);
+            -moz-box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25);
+            box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25); }
+          nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-messages .quick-replies a:focus {
+            outline: none;
+            -webkit-box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25);
+            -moz-box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25);
+            box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25); }
+          nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-messages .quick-replies a:disabled {
+            cursor: not-allowed;
+            opacity: 0.5; }
+            nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-messages .quick-replies a:disabled:hover {
+              background-color: #2962FF; }
+        nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-messages .message .avatar {
+          background-color: #8D9090; }
+        nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-messages .message .videos iframe {
+          background-color: #8D9090; }
+        nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-messages .message.user .template .text {
+          background-color: #2962FF;
+          color: #fff;
+          float: right; }
+          nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-messages .message.user .template .text a {
+            color: #fff;
+            text-decoration: underline; }
+        nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-messages .message.bot .template .text {
+          background-color: #E3E3E3;
+          color: #000;
+          float: left; }
+          nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-messages .message.bot .template .text a {
+            color: #000;
+            text-decoration: underline; }
+        nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-messages .message.operator .template .text {
+          background-color: #404646;
+          color: #fff;
+          float: left; }
+          nama-chat-widget nama-chat-box nama-chat-widget nama-chat-box nama-messages .message.operator .template .text a {
+            color: #fff;
+            text-decoration: underline; }
+    nama-chat-widget nama-chat-box nama-messages {
+      display: block;
+      box-sizing: border-box;
+      position: relative;
+      width: 100%;
+      height: 100%;
+      opacity: 1;
+      overflow: hidden;
+      overflow-y: scroll;
+      font-size: 14px;
+      transition: all 0.6s ease-in-out;
+      padding-right: 22px;
+      padding-top: 8px; }
+      nama-chat-widget nama-chat-box nama-messages .cards {
+        margin: 8px;
+        width: 100%;
+        margin-left: 35px;
+        overflow: hidden; }
+        nama-chat-widget nama-chat-box nama-messages .cards .action {
+          position: absolute;
+          margin-top: 80px;
+          display: block;
+          width: 36px;
+          height: 36px;
+          cursor: pointer;
+          padding: 4px 8px;
+          font-size: 14px;
+          font-weight: normal;
+          background-color: rgba(255, 255, 255, 0.5); }
+          nama-chat-widget nama-chat-box nama-messages .cards .action span svg {
+            width: 20px; }
+          nama-chat-widget nama-chat-box nama-messages .cards .action.prev {
+            left: 0px; }
+            nama-chat-widget nama-chat-box nama-messages .cards .action.prev span svg {
+              transform: rotate(180deg); }
+        nama-chat-widget nama-chat-box nama-messages .cards .scroller {
+          transition: all ease-out 0.3s;
+          margin-left: 8px; }
+          nama-chat-widget nama-chat-box nama-messages .cards .scroller .card {
+            float: left;
+            overflow: hidden;
+            margin: 0px 4px;
+            border-radius: 4px 4px 4px 4px; }
+            nama-chat-widget nama-chat-box nama-messages .cards .scroller .card .description {
+              margin: 8px 16px;
+              max-height: 78px; }
+              nama-chat-widget nama-chat-box nama-messages .cards .scroller .card .description h3 {
+                font-size: 14px;
+                width: 100%;
+                line-height: 20px;
+                max-height: 40px;
+                margin-bottom: 8px; }
+              nama-chat-widget nama-chat-box nama-messages .cards .scroller .card .description p {
+                font-size: 12px;
+                line-height: 15px;
+                height: 45px;
+                text-overflow: ellipsis;
+                width: 100%; }
+            nama-chat-widget nama-chat-box nama-messages .cards .scroller .card .image {
+              height: 150px;
+              width: 100%;
+              cursor: pointer;
+              transition: all ease-out 0.3s;
+              overflow: hidden; }
+              nama-chat-widget nama-chat-box nama-messages .cards .scroller .card .image img {
+                width: 100%;
+                height: 150px;
+                display: block;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                transform: scale(1.01);
+                transition: all ease-out 0.3s; }
+            nama-chat-widget nama-chat-box nama-messages .cards .scroller .card .buttons .button {
+              display: block; }
+            nama-chat-widget nama-chat-box nama-messages .cards .scroller .card .buttons a {
+              border-radius: 4px; }
+            nama-chat-widget nama-chat-box nama-messages .cards .scroller .card:first-child {
+              margin-left: 8px;
+              border-radius: 20px 4px 4px 20px; }
+              nama-chat-widget nama-chat-box nama-messages .cards .scroller .card:first-child .buttons a:last-child {
+                border-radius: 4px 4px 4px 20px !important; }
+            nama-chat-widget nama-chat-box nama-messages .cards .scroller .card:last-child {
+              margin-right: 8px;
+              border-radius: 4px 20px 20px 4px; }
+              nama-chat-widget nama-chat-box nama-messages .cards .scroller .card:last-child .buttons a:last-child {
+                border-radius: 4px 4px 20px 4px !important; }
+      nama-chat-widget nama-chat-box nama-messages .quick-replies {
+        width: 100%;
+        max-width: calc(66% + 40px);
+        margin-left: 50px;
+        display: block;
+        float: left;
+        opacity: 1;
+        margin-bottom: 8px;
+        transition: all ease-in-out 0.3s; }
+        nama-chat-widget nama-chat-box nama-messages .quick-replies a {
+          float: left;
+          visibility: hidden;
+          font-size: 14px;
+          font-weight: normal; }
+      nama-chat-widget nama-chat-box nama-messages .message {
+        width: calc(100% - 8px);
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: flex-end;
+        vertical-align: bottom;
+        overflow: hidden;
+        margin-bottom: 8px;
+        font-size: 14px;
+        font-weight: normal; }
+        nama-chat-widget nama-chat-box nama-messages .message .avatar {
+          display: block;
+          overflow: hidden; }
+          nama-chat-widget nama-chat-box nama-messages .message .avatar img {
+            width: 100%;
+            height: 100%; }
+          nama-chat-widget nama-chat-box nama-messages .message .avatar.small {
+            width: 34px;
+            height: 34px;
+            background-size: cover;
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            float: left;
+            margin-left: 8px;
+            border-radius: 20px; }
+        nama-chat-widget nama-chat-box nama-messages .message.user .template {
+          margin-left: 58px; }
+          nama-chat-widget nama-chat-box nama-messages .message.user .template .text p {
+            color: #fff; }
+        nama-chat-widget nama-chat-box nama-messages .message.bot .template .text p {
+          color: #000; }
+        nama-chat-widget nama-chat-box nama-messages .message.operator .template .text p {
+          color: #fff; }
+        nama-chat-widget nama-chat-box nama-messages .message .template {
+          max-width: 420px;
+          float: right;
+          width: calc(100% - 50px);
+          margin-left: 8px; }
+          nama-chat-widget nama-chat-box nama-messages .message .template .videos {
+            border-radius: 20px;
+            overflow: hidden;
+            box-sizing: border-box;
+            height: 160px;
+            display: block;
+            width: 100%; }
+            nama-chat-widget nama-chat-box nama-messages .message .template .videos iframe {
+              float: left;
+              margin-right: 8px;
+              width: 100%; }
+          nama-chat-widget nama-chat-box nama-messages .message .template .images {
+            display: block;
+            float: left;
+            width: 100%; }
+            nama-chat-widget nama-chat-box nama-messages .message .template .images .image {
+              border-radius: 20px;
+              overflow: hidden;
+              box-sizing: border-box;
+              height: 150px;
+              width: 100%;
+              margin-bottom: 8px;
+              margin-right: 8px;
+              cursor: pointer;
+              transition: all ease-out 0.3s; }
+              nama-chat-widget nama-chat-box nama-messages .message .template .images .image img {
+                width: 100%;
+                height: 150px;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                transform: scale(1.01);
+                transition: all ease-out 0.3s; }
+              nama-chat-widget nama-chat-box nama-messages .message .template .images .image:hover img {
+                transform: scale(1.05); }
+          nama-chat-widget nama-chat-box nama-messages .message .template .text {
+            border-radius: 20px;
+            overflow: hidden;
+            box-sizing: border-box;
+            opacity: 1;
+            padding: 0.75em 1.5em;
+            display: block;
+            max-width: 100%; }
+            nama-chat-widget nama-chat-box nama-messages .message .template .text .emoji {
+              height: 20px !important;
+              width: 20px !important;
+              display: inline-block !important;
+              vertical-align: sub !important; }
+            nama-chat-widget nama-chat-box nama-messages .message .template .text p {
+              margin: 0px;
+              width: 100%;
+              font-size: 14px;
+              line-height: 1.45;
+              font-weight: 400;
+              white-space: pre-line;
+              text-overflow: ellipsis;
+              overflow: hidden;
+              word-wrap: break-word; }
+              nama-chat-widget nama-chat-box nama-messages .message .template .text p iframe {
+                display: block;
+                margin: 10px; }
+  nama-chat-widget .zoom.hide {
+    display: none; }
+  nama-chat-widget .zoom.show {
+    position: fixed;
+    z-index: 1000000;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    text-align: center; }
+    nama-chat-widget .zoom.show img {
+      width: 90vw;
+      max-width: 640px;
+      margin: auto;
+      margin-top: 50px;
+      -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.4);
+      -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.4);
+      box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.4); }
+',""])},function(t,e,n){e=t.exports=n(4)(!1),e.push([t.i,'html {
+  box-sizing: border-box; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+body {
+  margin: 0; }
+
+html {
+  box-sizing: border-box; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+body {
+  margin: 0; }
+
+/* Pretty printing styles. Used with prettify.js. */
+/* Vim sunburst theme by David Leibovic */
+pre .str, code .str {
+  color: #00BFA5; }
+
+/* string  - green */
+pre .kwd, code .kwd {
+  color: #F50057; }
+
+/* keyword - dark pink */
+pre .com, code .com {
+  color: #AEAEAE;
+  font-style: italic; }
+
+/* comment - gray */
+pre .typ, code .typ {
+  color: #F50057; }
+
+/* type - light blue */
+pre .lit, code .lit {
+  color: #2979FF; }
+
+/* literal - blue */
+pre .pun, code .pun {
+  color: #fff; }
+
+/* punctuation - white */
+pre .pln, code .pln {
+  color: #fff; }
+
+/* plaintext - white */
+pre .tag, code .tag {
+  color: #2979FF; }
+
+/* html/xml tag    - light blue */
+pre .atn, code .atn {
+  color: #FFB300; }
+
+/* html/xml attribute name  - khaki */
+pre .atv, code .atv {
+  color: #00BFA5; }
+
+/* html/xml attribute value - green */
+pre .dec, code .dec {
+  color: #2979FF; }
+
+/* decimal - blue */
+pre.prettyprint.inline {
+  display: inline-block;
+  padding: 7px;
+  margin: 0px;
+  border: none; }
+  pre.prettyprint.inline pre, pre.prettyprint.inline xmp, pre.prettyprint.inline plaintext, pre.prettyprint.inline listing {
+    display: block;
+    white-space: pre;
+    margin: 0px; }
+
+pre.prettyprint {
+  background-color: #2F3335;
+  padding: 20px;
+  border: none;
+  box-sizing: border-box;
+  white-space: pre-wrap; }
+  pre.prettyprint pre, pre.prettyprint xmp, pre.prettyprint plaintext, pre.prettyprint listing {
+    display: block;
+    white-space: pre;
+    margin: 0px; }
+  pre.prettyprint .pln:first-child, pre.prettyprint .pln:last-child {
+    display: none; }
+
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #AEAEAE; }
+
+/* IE indents via margin-left */
+li.L0, li.L1, li.L2, li.L3, li.L5, li.L6, li.L7, li.L8 {
+  list-style-type: none; }
+
+/* Alternate shading for lines */
+@media print {
+  pre .str, code .str {
+    color: #060; }
+  pre .kwd, code .kwd {
+    color: #006;
+    font-weight: bold; }
+  pre .com, code .com {
+    color: #600;
+    font-style: italic; }
+  pre .typ, code .typ {
+    color: #404;
+    font-weight: bold; }
+  pre .lit, code .lit {
+    color: #044; }
+  pre .pun, code .pun {
+    color: #440; }
+  pre .pln, code .pln {
+    color: #000; }
+  pre .tag, code .tag {
+    color: #006;
+    font-weight: bold; }
+  pre .atn, code .atn {
+    color: #404; }
+  pre .atv, code .atv {
+    color: #060; } }
+
+/* Pretty printing styles. Used with prettify.js. */
+/* Vim sunburst theme by David Leibovic */
+pre .str, code .str {
+  color: #00BFA5; }
+
+/* string  - green */
+pre .kwd, code .kwd {
+  color: #F50057; }
+
+/* keyword - dark pink */
+pre .com, code .com {
+  color: #AEAEAE;
+  font-style: italic; }
+
+/* comment - gray */
+pre .typ, code .typ {
+  color: #F50057; }
+
+/* type - light blue */
+pre .lit, code .lit {
+  color: #2979FF; }
+
+/* literal - blue */
+pre .pun, code .pun {
+  color: #fff; }
+
+/* punctuation - white */
+pre .pln, code .pln {
+  color: #fff; }
+
+/* plaintext - white */
+pre .tag, code .tag {
+  color: #2979FF; }
+
+/* html/xml tag    - light blue */
+pre .atn, code .atn {
+  color: #FFB300; }
+
+/* html/xml attribute name  - khaki */
+pre .atv, code .atv {
+  color: #00BFA5; }
+
+/* html/xml attribute value - green */
+pre .dec, code .dec {
+  color: #2979FF; }
+
+/* decimal - blue */
+pre.prettyprint.inline {
+  display: inline-block;
+  padding: 7px;
+  margin: 0px;
+  border: none; }
+  pre.prettyprint.inline pre, pre.prettyprint.inline xmp, pre.prettyprint.inline plaintext, pre.prettyprint.inline listing {
+    display: block;
+    white-space: pre;
+    margin: 0px; }
+
+pre.prettyprint {
+  background-color: #2F3335;
+  padding: 20px;
+  border: none;
+  box-sizing: border-box;
+  white-space: pre-wrap; }
+  pre.prettyprint pre, pre.prettyprint xmp, pre.prettyprint plaintext, pre.prettyprint listing {
+    display: block;
+    white-space: pre;
+    margin: 0px; }
+  pre.prettyprint .pln:first-child, pre.prettyprint .pln:last-child {
+    display: none; }
+
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #AEAEAE; }
+
+/* IE indents via margin-left */
+li.L0, li.L1, li.L2, li.L3, li.L5, li.L6, li.L7, li.L8 {
+  list-style-type: none; }
+
+/* Alternate shading for lines */
+@media print {
+  pre .str, code .str {
+    color: #060; }
+  pre .kwd, code .kwd {
+    color: #006;
+    font-weight: bold; }
+  pre .com, code .com {
+    color: #600;
+    font-style: italic; }
+  pre .typ, code .typ {
+    color: #404;
+    font-weight: bold; }
+  pre .lit, code .lit {
+    color: #044; }
+  pre .pun, code .pun {
+    color: #440; }
+  pre .pln, code .pln {
+    color: #000; }
+  pre .tag, code .tag {
+    color: #006;
+    font-weight: bold; }
+  pre .atn, code .atn {
+    color: #404; }
+  pre .atv, code .atv {
+    color: #060; } }
+
+nama-chat-widget h1, nama-chat-widget h2, nama-chat-widget h3, nama-chat-widget h4, nama-chat-widget h5, nama-chat-widget p, nama-chat-widget div, nama-chat-widget input, nama-chat-widget textarea, nama-chat-widget span {
+  font-family: "Source Sans Pro", "Open Sans", sans-serif; }
+
+nama-chat-widget nama-chat-avatar .notification {
+  background: #fff;
+  color: #2962FF;
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.4); }
+
+nama-chat-widget nama-chat-avatar .coin {
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.4); }
+  nama-chat-widget nama-chat-avatar .coin.bot {
+    background-color: #2962FF; }
+
+nama-chat-widget nama-chat-box {
+  float: right;
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.4); }
+  nama-chat-widget nama-chat-box nama-header {
+    background: #fff;
+    border-bottom: 1px solid #E3E3E3; }
+    nama-chat-widget nama-chat-box nama-header .title h2 {
+      font-family: "Source Sans Pro", "Open Sans", sans-serif;
+      color: #000; }
+    nama-chat-widget nama-chat-box nama-header .title h5 {
+      font-family: "Source Sans Pro", "Open Sans", sans-serif;
+      color: #404040; }
+  nama-chat-widget nama-chat-box nama-input {
+    background: #fff;
+    border-top: 1px solid #E3E3E3; }
+    nama-chat-widget nama-chat-box nama-input #card-form button {
+      box-sizing: border-box;
+      margin: 4px;
+      appearance: none;
+      background-color: #2962FF;
+      border: 0;
+      border-radius: 5px;
+      color: #FFF;
+      cursor: pointer;
+      display: inline-block;
+      font-family: "Source Sans Pro", "Open Sans", sans-serif;
+      -webkit-font-smoothing: antialiased;
+      text-align: center;
+      text-decoration: none;
+      transition: box-shadow 150ms ease, background-color 150ms ease;
+      user-select: none;
+      vertical-align: middle;
+      white-space: nowrap;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 1;
+      padding: 0.75em 1.5em;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 1;
+      padding: 0.6em 1.2em;
+      border-radius: 20px;
+      padding: 7px 16px;
+      background-color: transparent;
+      margin: 0px;
+      width: 100%; }
+      nama-chat-widget nama-chat-box nama-input #card-form button.small {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 1;
+        padding: 0.6em 1.2em; }
+      nama-chat-widget nama-chat-box nama-input #card-form button.full {
+        width: 100%; }
+      nama-chat-widget nama-chat-box nama-input #card-form button.rouded {
+        border-radius: 20px; }
+      nama-chat-widget nama-chat-box nama-input #card-form button:hover {
+        background-color: #2558e6;
+        color: #FFF;
+        -webkit-box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25);
+        -moz-box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25);
+        box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25); }
+      nama-chat-widget nama-chat-box nama-input #card-form button:focus {
+        outline: none;
+        -webkit-box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25);
+        -moz-box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25);
+        box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25); }
+      nama-chat-widget nama-chat-box nama-input #card-form button:disabled {
+        cursor: not-allowed;
+        opacity: 0.5; }
+        nama-chat-widget nama-chat-box nama-input #card-form button:disabled:hover {
+          background-color: #2962FF; }
+    nama-chat-widget nama-chat-box nama-input .choices .choices-wrapper {
+      background-color: transparent; }
+      nama-chat-widget nama-chat-box nama-input .choices .choices-wrapper a {
+        margin: 4px;
+        appearance: none;
+        background-color: #2962FF;
+        border: 0;
+        border-radius: 5px;
+        color: #FFF;
+        cursor: pointer;
+        display: inline-block;
+        font-family: "Source Sans Pro", "Open Sans", sans-serif;
+        -webkit-font-smoothing: antialiased;
+        text-align: center;
+        text-decoration: none;
+        transition: box-shadow 150ms ease, background-color 150ms ease;
+        user-select: none;
+        vertical-align: middle;
+        white-space: nowrap;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1;
+        padding: 0.75em 1.5em;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 1;
+        padding: 0.6em 1.2em;
+        border-radius: 20px; }
+        nama-chat-widget nama-chat-box nama-input .choices .choices-wrapper a.small {
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 1;
+          padding: 0.6em 1.2em; }
+        nama-chat-widget nama-chat-box nama-input .choices .choices-wrapper a.full {
+          width: 100%; }
+        nama-chat-widget nama-chat-box nama-input .choices .choices-wrapper a.rouded {
+          border-radius: 20px; }
+        nama-chat-widget nama-chat-box nama-input .choices .choices-wrapper a:hover {
+          background-color: #2558e6;
+          color: #FFF;
+          -webkit-box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25);
+          -moz-box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25);
+          box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25); }
+        nama-chat-widget nama-chat-box nama-input .choices .choices-wrapper a:focus {
+          outline: none;
+          -webkit-box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25);
+          -moz-box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25);
+          box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25); }
+        nama-chat-widget nama-chat-box nama-input .choices .choices-wrapper a:disabled {
+          cursor: not-allowed;
+          opacity: 0.5; }
+          nama-chat-widget nama-chat-box nama-input .choices .choices-wrapper a:disabled:hover {
+            background-color: #2962FF; }
+    nama-chat-widget nama-chat-box nama-input .brand span {
+      font-family: "Source Sans Pro", "Open Sans", sans-serif !important;
+      font-size: 11px !important;
+      cursor: pointer; }
+    nama-chat-widget nama-chat-box nama-input .text-input .input-wrapper {
+      border: 1px solid #E3E3E3; }
+      nama-chat-widget nama-chat-box nama-input .text-input .input-wrapper textarea {
+        color: #000; }
+  nama-chat-widget nama-chat-box nama-messages {
+    background: #fff; }
+    nama-chat-widget nama-chat-box nama-messages .cards .card {
+      background: #E3E3E3; }
+      nama-chat-widget nama-chat-box nama-messages .cards .card .buttons a {
+        margin: 4px;
+        appearance: none;
+        background-color: #2962FF;
+        border: 0;
+        border-radius: 5px;
+        color: #FFF;
+        cursor: pointer;
+        display: inline-block;
+        font-family: "Source Sans Pro", "Open Sans", sans-serif;
+        -webkit-font-smoothing: antialiased;
+        text-align: center;
+        text-decoration: none;
+        transition: box-shadow 150ms ease, background-color 150ms ease;
+        user-select: none;
+        vertical-align: middle;
+        white-space: nowrap;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1;
+        padding: 0.75em 1.5em;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 1;
+        padding: 0.6em 1.2em;
+        border-radius: 20px; }
+        nama-chat-widget nama-chat-box nama-messages .cards .card .buttons a.small {
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 1;
+          padding: 0.6em 1.2em; }
+        nama-chat-widget nama-chat-box nama-messages .cards .card .buttons a.full {
+          width: 100%; }
+        nama-chat-widget nama-chat-box nama-messages .cards .card .buttons a.rouded {
+          border-radius: 20px; }
+        nama-chat-widget nama-chat-box nama-messages .cards .card .buttons a:hover {
+          background-color: #2558e6;
+          color: #FFF;
+          -webkit-box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25);
+          -moz-box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25);
+          box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25); }
+        nama-chat-widget nama-chat-box nama-messages .cards .card .buttons a:focus {
+          outline: none;
+          -webkit-box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25);
+          -moz-box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25);
+          box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25); }
+        nama-chat-widget nama-chat-box nama-messages .cards .card .buttons a:disabled {
+          cursor: not-allowed;
+          opacity: 0.5; }
+          nama-chat-widget nama-chat-box nama-messages .cards .card .buttons a:disabled:hover {
+            background-color: #2962FF; }
+    nama-chat-widget nama-chat-box nama-messages .quick-replies a {
+      margin: 4px;
+      appearance: none;
+      background-color: #2962FF;
+      border: 0;
+      border-radius: 5px;
+      color: #FFF;
+      cursor: pointer;
+      display: inline-block;
+      font-family: "Source Sans Pro", "Open Sans", sans-serif;
+      -webkit-font-smoothing: antialiased;
+      text-align: center;
+      text-decoration: none;
+      transition: box-shadow 150ms ease, background-color 150ms ease;
+      user-select: none;
+      vertical-align: middle;
+      white-space: nowrap;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 1;
+      padding: 0.75em 1.5em;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 1;
+      padding: 0.6em 1.2em;
+      border-radius: 20px; }
+      nama-chat-widget nama-chat-box nama-messages .quick-replies a.small {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 1;
+        padding: 0.6em 1.2em; }
+      nama-chat-widget nama-chat-box nama-messages .quick-replies a.full {
+        width: 100%; }
+      nama-chat-widget nama-chat-box nama-messages .quick-replies a.rouded {
+        border-radius: 20px; }
+      nama-chat-widget nama-chat-box nama-messages .quick-replies a:hover {
+        background-color: #2558e6;
+        color: #FFF;
+        -webkit-box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25);
+        -moz-box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25);
+        box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25); }
+      nama-chat-widget nama-chat-box nama-messages .quick-replies a:focus {
+        outline: none;
+        -webkit-box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25);
+        -moz-box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25);
+        box-shadow: 2px 3px 4px 0px rgba(41, 98, 255, 0.25); }
+      nama-chat-widget nama-chat-box nama-messages .quick-replies a:disabled {
+        cursor: not-allowed;
+        opacity: 0.5; }
+        nama-chat-widget nama-chat-box nama-messages .quick-replies a:disabled:hover {
+          background-color: #2962FF; }
+    nama-chat-widget nama-chat-box nama-messages .message .avatar {
+      background-color: #8D9090; }
+    nama-chat-widget nama-chat-box nama-messages .message .videos iframe {
+      background-color: #8D9090; }
+    nama-chat-widget nama-chat-box nama-messages .message.user .template .text {
+      background-color: #2962FF;
+      color: #fff;
+      float: right; }
+      nama-chat-widget nama-chat-box nama-messages .message.user .template .text a {
+        color: #fff;
+        text-decoration: underline; }
+    nama-chat-widget nama-chat-box nama-messages .message.bot .template .text {
+      background-color: #E3E3E3;
+      color: #000;
+      float: left; }
+      nama-chat-widget nama-chat-box nama-messages .message.bot .template .text a {
+        color: #000;
+        text-decoration: underline; }
+    nama-chat-widget nama-chat-box nama-messages .message.operator .template .text {
+      background-color: #404646;
+      color: #fff;
+      float: left; }
+      nama-chat-widget nama-chat-box nama-messages .message.operator .template .text a {
+        color: #fff;
+        text-decoration: underline; }
