@@ -146,3 +146,32 @@
                 transform: rotateY(360deg);
       }
     }
+
+
+.quadrado {
+  width: 100px;
+  height: 100px;
+  background-color: #33ff33;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 2s;
+  float: right;
+  border-radius: 50px;
+}
+
+@keyframes example {
+  from {width:65px;}
+  to {width:300px}
+}
+
+#teste {
+  margin-right: 8px;
+  margin-top: 7px;
+  width: 85px;
+  float: right;
+}
+
+.circle {
+  color: red;
+}
