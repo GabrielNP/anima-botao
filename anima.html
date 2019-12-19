@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Anima botão</title>
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+
+    <body>
+
+        <div id="divChatbotIcon">            
+            <span id="texto">
+                <p><b>Oi! Se precisar de ajuda, clique aqui!</b></p>
+            </span>
+        </div>
+        <img id="chat-icon" class="icon-chat rotate-vert-center" src="img/icon-oi-avatar-02.png">
+
+        <style>
+          .rotate-vert-center {
+            -webkit-animation: rotate-vert-center 3s ease-in-out infinite both;
+                    animation: rotate-vert-center 3s ease-in-out infinite both;
+            }
+
+                @-webkit-keyframes rotate-vert-center {
+                0% {
+                    -webkit-transform: rotateY(0);
+                            transform: rotateY(0);
+                }
+                100% {
+                    -webkit-transform: rotateY(360deg);
+                            transform: rotateY(360deg);
+                }
+                }
+
+                @keyframes rotate-vert-center {
+                0% {
+                    -webkit-transform: rotateY(0);
+                            transform: rotateY(0);
+                }
+                100% {
+                    -webkit-transform: rotateY(360deg);
+                            transform: rotateY(360deg);
+                }
+                }
+
+            .icon-chat {
+            width: 65px;
+            position: fixed;
+            display: flex;
+            bottom: 10px;
+            right: 10px;
+            }
+
+            #divChatbotIcon {
+            position: fixed;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            right: 10px;
+            z-index: 999;
+            bottom: 10px;
+            cursor: pointer;
+            padding: 20px 1px 20px 30px;;
+            border-radius: 100px;
+            height: 30px;
+            margin-right: 80px;
+            }
+
+            #divChatbotIcon:hover{
+            border-radius: 100px;
+            background-color: white;
+            padding-right: 20px;
+            -webkit-transition: all .9s ease-in;
+            -moz-transition: all .9s ease-in;
+            -ms-transition: all .9s ease-in;
+            -o-transition: all .9s ease-in;
+            transition: all .9s ease-in;
+            }
+
+            #divChatbotIcon:hover #texto,
+            .estica #texto{
+            display: block;
+            }
+
+            #texto{
+            overflow: hidden;
+            display: none;
+            }
+
+            #texto > p{
+            color: #33d6ff;
+            margin-right: 20px;
+            font-size: 18px;
+            width: 320px;
+            }
+
+            .estica {
+            -webkit-animation-name: estica;  
+            -webkit-animation-duration: 0.5s;
+            animation-name: estica;
+            animation-duration: 0.5s;
+            border-radius: 100px;
+            background-color: white;
+            padding-right: 20px;
+            } 
+
+            @keyframes estica {
+            from {width: 100px;}
+            to {width: 320px}
+            }  
+        </style>
+        
+        <script>
+            var mainIcon = document.querySelector('#chat-icon');
+            var divChatbotIcon = document.querySelector('#divChatbotIcon');
+            var cont = 0;
+
+            mainIcon.addEventListener("onready", function(event) { 
+
+                setInterval(function() { console.log("comecei");
+                    animateIcon();
+                    if (cont == 5) {
+                        cont = 0;
+                        mainIcon.classList.remove("rotate-vert-center");
+                        addEstica();
+                    }        
+                    cont++;
+                }, 4000);
+            });
+
+            mainIcon.addEventListener("mouseenter",function() {
+                
+                addEstica();
+            });
+
+            mainIcon.addEventListener("mouseout", function() {
+
+                removeEstica();
+            });
+
+            function animateIcon() { console.log("animateIcon() nenem");
+
+                if (mainIcon.setAttribute("src", "img/hand.png")) {
+                    var icon = "img/icon-oi-avatar-02.png";
+                    console.log("AVATAR");
+                } else {
+                    var icon = "img/hand.png";
+                    console.log("HAND");
+                }
+                
+                // (mainIcon.attr('src') == "img/hand.png")?
+                //                     "img/icon-oi-avatar-02.png" :
+                //                     "img/hand.png";
+                
+                    if (icon == "img/hand.png" && cont == 1) {
+                        mainIcon.classList.add("rotate-vert-center");
+                    } 
+
+                    if (icon == "img/icon-oi-avatar-02.png" && cont == 4) {
+                            cont--;
+                        }
+
+                    removeEstica();    
+
+                    mainIcon.classList.toggle("rotate-vert-center")
+                            .setAttribute("src", icon)
+                            .classList.toggle("shake-lr btn-floating btn-large waves-effect waves-light white");
+                    
+            }
+
+            function addEstica() {
+
+                divChatbotIcon.classList.add("estica");   
+            }
+
+            function removeEstica() {
+
+                divChatbotIcon.classList.remove("estica");
+            }
+        </script>
+        
+    </body>
+</html>

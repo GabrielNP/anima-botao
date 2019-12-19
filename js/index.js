@@ -1,19 +1,33 @@
 var mainIcon = $('#chat-icon');
+var divChatbotIcon = $('#divChatbotIcon');
+var texto = $("#texto");
 var cont = 0;
 
 mainIcon.ready(function() {
+
     setInterval(function() {
          animateIcon();
          if (cont == 5) {
             cont = 0;
-            botaQuadrado();
-            console.log("bati");
+            mainIcon.removeClass("rotate-vert-center");
+            addEstica();
         }        
         cont++;
-    }, 6000);
+    }, 4000);
 });
 
-function animateIcon() { console.log(cont);
+mainIcon.mouseenter(function() {
+    
+    addEstica();
+});
+
+mainIcon.mouseout(function() {
+
+    removeEstica();
+});
+
+function animateIcon() {
+
     let icon  = (mainIcon.attr('src') == "img/hand.png")?
                         "img/icon-oi-avatar-02.png" :
                         "img/hand.png";
@@ -25,24 +39,21 @@ function animateIcon() { console.log(cont);
         if (icon == "img/icon-oi-avatar-02.png" && cont == 4) {
                 cont--;
             }
-        tiraQuadrado();              
+
+        removeEstica();    
+
         mainIcon.toggleClass("rotate-vert-center")
-            .attr("src", icon)
-            .toggleClass("shake-lr btn-floating btn-large waves-effect waves-light white");
+                .attr("src", icon)
+                .toggleClass("shake-lr btn-floating btn-large waves-effect waves-light white");
         
 }
 
+function addEstica() {
 
-mainIcon.mouseover(function() {
-    console.log("PASSEI");
-    botaQuadrado();
-});
-
-function botaQuadrado() {
-    mainIcon.removeClass("rotate-vert-center");
-    mainIcon.addClass("quadrado");
+    divChatbotIcon.addClass("estica");   
 }
 
-function tiraQuadrado() {
-    mainIcon.removeClass("quadrado"); 
+function removeEstica() {
+
+    divChatbotIcon.removeClass("estica");
 }
