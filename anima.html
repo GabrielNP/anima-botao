@@ -114,9 +114,9 @@
         <script>
             var mainIcon = document.querySelector('#chat-icon');
             var divChatbotIcon = document.querySelector('#divChatbotIcon');
-            var cont = 0;
+            var cont = 0; console.log("começa aqui");
 
-            mainIcon.addEventListener("onready", function(event) { 
+            mainIcon.addEventListener("DOMContentLoaded", function(event) { console.log("DOMContentLoaded");
 
                 setInterval(function() { console.log("comecei");
                     animateIcon();
