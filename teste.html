@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Anima botão - teste</title>
+    </head>
+
+    <body>
+        <chatbot>
+        </chatbot>
+    
+    </body>
+    
+    <style>
+        body {
+            background-color: black;
+        }
+        .chat-bot {
+        height: 0;
+        width: 400px;
+        position: fixed;
+        bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+        right: 10px;
+        z-index: 999999999;
+        overflow: hidden;
+        -webkit-box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .5);
+        box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .5);
+        border-radius: 10px;
+    }
+
+    .close-chat-bot {
+        text-align: right;
+        padding: .6rem 1rem 0 1rem;
+        font-size: .6rem;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+    .chat-icon img {
+        display: block;
+        position: fixed;
+        bottom: 10px;
+        margin: 10px;
+        z-index: 999;
+        right: 0px;
+        cursor: pointer;
+        border-radius: 100px;
+        width: 65px;
+        -webkit-animation: rotate 3s ease-in-out infinite both;
+        animation: rotate 3s ease-in-out infinite both;
+    }
+
+    .chat-icon-hand {
+        position: fixed;
+        padding: 15px;
+        bottom: 10px;
+        margin: 10px;
+        z-index: 999;
+        right: 0px;
+        cursor: pointer;
+        border-radius: 100px;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+        -webkit-animation: shake-hand 1.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+        animation: shake-hand 1.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+        background-color: #ffffff;
+    }
+
+    .chat-icon-hand img {
+        width: 30px;
+    }
+
+    #texto {
+        overflow: hidden;
+        right: -10%;
+        padding: 14px;
+    }
+
+    #texto > strong {
+        text-align: center;
+        color: black;
+        margin-right: 20px;
+        font-size: 14px;
+        width: 300px;
+    }
+
+    .expand {
+        -webkit-transition: all 1.4s linear;
+        -moz-transition: all 1.4s linear;
+        -ms-transition: all 1.4s linear;
+        -o-transition: all 1.4s linear;
+        transition: all 1.4s linear;
+        align-items: center;
+        border-radius: 100px;
+        background-color: white;
+        width: 300px;
+        display: flex!important;
+        position: fixed;
+        right: 80px!important;
+        bottom: 31px;
+        z-index: 999;
+        /* box-shadow: inset 0 0 1px rgb(87, 87, 87); */
+        -webkit-box-shadow: 10px 0px 55px -7px rgba(0,0,0,0.75);
+            -moz-box-shadow: 10px 0px 55px -7px rgba(0,0,0,0.75);
+            box-shadow: 10px 0px 55px -18px rgba(0,0,0,0.75);
+    }
+
+    #iframe {
+        width: 100%;
+        max-height: 655px;
+        height: 100vh;
+    }
+
+    @media screen and (max-height: 380px) {
+        #iframe .chat-bot-content > .header {
+            display: none;
+        }
+    }
+
+    @media screen and (max-height: 768px) {
+        #iframe {
+            height: 595px;
+        }
+    }
+
+    @media screen and (max-width: 1023px) {
+        #iframe {
+            width: 100%;
+            height: calc(100vh - 104px);
+        }
+    }
+
+    @media screen and (max-width: 640px) {
+        .chat-bot {
+            right: 10px !important;
+            background-color: white;
+            width: 96%
+        }
+
+        .expand {
+            -webkit-transition: all 1.4s linear;
+            -moz-transition: all 1.4s linear;
+            -ms-transition: all 1.4s linear;
+            -o-transition: all 1.4s linear;
+            transition: all 1.4s linear;
+            align-items: center;
+            border-radius: 100px;
+            background-color: white;
+            width: 210px;
+            display: flex!important;
+            position: fixed;
+            right: 80px!important;
+            bottom: 31px;
+            z-index: 999;
+            /* box-shadow: inset 0 0 1px rgb(87, 87, 87); */
+            -webkit-box-shadow: 10px 0px 55px -7px rgba(0,0,0,0.75);
+            -moz-box-shadow: 10px 0px 55px -7px rgba(0,0,0,0.75);
+            box-shadow: 10px 0px 55px -18px rgba(0,0,0,0.75);
+        }
+
+        #texto {
+            overflow: hidden;
+            right: -10%;
+            padding: 8px;       
+        }
+
+        #texto > strong {
+            text-align: center;
+            color: black;
+            margin-right: 20px;
+            font-size: 11px;
+            width: 200px;
+            line-height: 12px;
+        }
+    }
+
+    @-webkit-keyframes rotate {
+        0% {
+            -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+        }
+
+        100% {
+            -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+        }
+    }
+
+    @keyframes rotate {
+        0% {
+            -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+        }
+
+        100% {
+            -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+        }
+    }
+
+    @-webkit-keyframes shake-hand {
+
+        0%,
+        100% {
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+            -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+        }
+
+        10% {
+            -webkit-transform: rotate(8deg);
+            transform: rotate(8deg);
+        }
+
+        20%,
+        40%,
+        60% {
+            -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+        }
+
+        30%,
+        50%,
+        70% {
+            -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+        }
+
+        80% {
+            -webkit-transform: rotate(-8deg);
+            transform: rotate(-8deg);
+        }
+
+        90% {
+            -webkit-transform: rotate(8deg);
+            transform: rotate(8deg);
+        }
+    }
+
+    @keyframes shake-hand {
+
+        0%,
+        100% {
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+            -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+        }
+
+        10% {
+            -webkit-transform: rotate(8deg);
+            transform: rotate(8deg);
+        }
+
+        20%,
+        40%,
+        60% {
+            -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+        }
+
+        30%,
+        50%,
+        70% {
+            -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
+        }
+
+        80% {
+            -webkit-transform: rotate(-8deg);
+            transform: rotate(-8deg);
+        }
+
+        90% {
+            -webkit-transform: rotate(8deg);
+            transform: rotate(8deg);
+        }
+    }
+    </style>
+
+
+    <script>
+
+        const avatarIcon = 'img/icon-oi-avatar-02.png';
+        const avatarHand = 'img/hand.png';
+        const urlChatbot = 'https://fs-chatbot-hero.firebaseapp.com/';
+
+        templateChatBot();
+        viewAnimationChatBot();
+        onClickChatBot();
+        
+        function templateChatBot() {
+            return document.querySelector('chatbot').innerHTML = `\
+                <div class="chat-icon" id="chat-icon" data-value="0">\
+                <img id="chat-image" alt="Chatbot" src="${avatarIcon}" />\
+                </div>\
+                <span id="texto"><strong>Oi! Se precisar de ajuda, clique aqui!</strong></span>\
+                <div class="chat-bot">\
+                <span class="close-chat-bot">Fechar</span>\
+                <iframe id="iframe" src=${urlChatbot} title="Chatbot" frameBorder="0" ></iframe>\
+                </div>`;
+        }
+
+        function onClickChatBot() {
+            let iconChatBot, windowChatBot, iconCloseChatBot;
+
+            iconChatBot = document.getElementById('chat-icon');
+            iconCloseChatBot = document.querySelector('.close-chat-bot');
+            windowChatBot = document.querySelector('.chat-bot');
+
+            if (iconChatBot || iconCloseChatBot || windowChatBot) {
+                iconChatBot.addEventListener('click', function () {
+                    windowChatBot.style.height = "auto";
+                    iconChatBot.style.display = "none";
+                });
+                iconCloseChatBot.addEventListener('click', function () {
+                    windowChatBot.removeAttribute('style');
+                    iconChatBot.removeAttribute('style');
+                });
+            }
+        }
+
+        function viewAnimationChatBot() {
+            // let avatarIcon = this.avatarIcon; 
+            // let avatarHand = this.avatarHand; 
+
+            let iconChatBot = document.getElementById('chat-icon');
+            let iconChatImg = document.getElementById('chat-image');
+            let text = document.getElementById('texto');
+        
+       
+        setInterval(function() {
+
+            (iconChatBot.dataset.value == 0) ? iconChatBot.dataset.value = 1 : iconChatBot.dataset.value = 0;
+                switch (iconChatBot.dataset.value) {
+                    case '1':
+                        iconChatBot.classList = 'chat-icon-hand';
+                        iconChatImg.setAttribute('src', `${avatarHand}`);
+                        break;
+                    default:
+                        iconChatBot.classList = 'chat-icon';
+                        iconChatImg.setAttribute('src', `${avatarIcon}`);
+                        break;
+                }
+                 
+            }, 6000);
+            
+            
+            setInterval(function() {
+                addExpand();
+            }, 12000);
+          
+
+            setInterval(function() {
+                removeExpand();
+            }, 16000); 
+        
+
+            function addExpand() {
+                
+                text.classList.add("expand");   
+            }
+
+            function removeExpand() {
+                
+                text.classList.remove("expand");
+            }
+        }
+
+    </script>
+
+</html>

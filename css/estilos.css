@@ -3,40 +3,79 @@
   border-radius: 100px;
 }
 
-/* Animação */
-
-.ping {
-	-webkit-animation: ping 3s ease-in-out 3s infinite both;
-	        animation: ping 3s ease-in-out 3s infinite both;
+body {
+  background-color: black;
 }
 
-  @-webkit-keyframes ping {
-      0% {
-        -webkit-transform: scale(0.2);
-                transform: scale(0.2);
-        opacity: 0.8;
-      }
-      80% {
-        -webkit-transform: scale(1.2);
-                transform: scale(1.2);
-        opacity: 0.8;
-      }
-    }
+.icon-chat {
+  width: 65px;
+  position: fixed;
+  display: flex;
+  bottom: 10px;
+  right: 10px;
+}
 
-    @keyframes ping {
-      0% {
-        -webkit-transform: scale(0.2);
-                transform: scale(0.2);
-        opacity: 0.8;
-      }
-      80% {
-        -webkit-transform: scale(1.2);
-                transform: scale(1.2);
-        opacity: 0.8;
-      }
-    }
-  
-  .shake-lr {
+#divChatbotIcon {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  right: 10px;
+  z-index: 999;
+  bottom: 10px;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 100px;
+  height: 65px;
+  margin-right: 80px;
+}
+
+#divChatbotIcon:hover{
+  border-radius: 100px;
+  background-color: white;
+  padding-right: 20px;
+  -webkit-transition: all .9s ease-in;
+  -moz-transition: all .9s ease-in;
+  -ms-transition: all .9s ease-in;
+  -o-transition: all .9s ease-in;
+  transition: all .9s ease-in;
+}
+
+#divChatbotIcon:hover #texto,
+.estica #texto{
+  display: block;
+}
+
+#texto{
+  overflow: hidden;
+  display: none;
+}
+
+#texto > p{
+  color: #33d6ff;
+  margin-right: 20px;
+  font-size: 18px;
+  width: 320px;
+}
+
+.estica {
+  -webkit-animation-name: estica;  
+  -webkit-animation-duration: 0.5s;
+  animation-name: estica;
+  animation-duration: 0.5s;
+  border-radius: 100px;
+  background-color: white;
+  padding-right: 20px;
+} 
+
+/* Animação */
+
+@keyframes estica {
+  from {width: 100px;}
+  to {width: 320px}
+}
+
+.shake-lr {
 	-webkit-animation: shake-lr 1.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
           animation: shake-lr 1.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
 }
@@ -136,79 +175,33 @@
       }
     }
 
-.icon-chat {
-  width: 65px;
-  position: fixed;
-  display: flex;
-  bottom: 10px;
-  right: 10px;
-}
-
-#divChatbotIcon {
-  position: fixed;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  right: 10px;
-  z-index: 999;
-  bottom: 10px;
-  cursor: pointer;
-  padding: 20px;
-  border-radius: 100px;
-  height: 65px;
-  margin-right: 80px;
-}
-
-#divChatbotIcon:hover{
-  border-radius: 100px;
-  background-color: white;
-  padding-right: 20px;
-  -webkit-transition: all .9s ease-in;
-  -moz-transition: all .9s ease-in;
-  -ms-transition: all .9s ease-in;
-  -o-transition: all .9s ease-in;
-  transition: all .9s ease-in;
-}
-
-#divChatbotIcon:hover #texto,
-.estica #texto{
-  display: block;
-}
-
-#texto{
-  overflow: hidden;
-  display: none;
-}
-
-#texto > p{
-  color: #33d6ff;
-  margin-right: 20px;
-  font-size: 18px;
-  width: 320px;
-}
-
-.estica {
-  -webkit-animation-name: estica;  
-  -webkit-animation-duration: 0.5s;
-  animation-name: estica;
-  animation-duration: 0.5s;
-  border-radius: 100px;
-  background-color: white;
-  padding-right: 20px;
-} 
-
-@keyframes estica {
-  from {width: 100px;}
-  to {width: 320px}
-}
-
-/* .esticaTexto {
-  display: inline;
-  text-align: center;
-  color: white;
-  font-size: 18px;
-} 
-
-.recolheTexto {
-  display: none;
-} */
+.ping {
+    -webkit-animation: ping 3s ease-in-out 3s infinite both;
+            animation: ping 3s ease-in-out 3s infinite both;
+  }
+    
+      @-webkit-keyframes ping {
+          0% {
+            -webkit-transform: scale(0.2);
+                    transform: scale(0.2);
+            opacity: 0.8;
+          }
+          80% {
+            -webkit-transform: scale(1.2);
+                    transform: scale(1.2);
+            opacity: 0.8;
+          }
+        }
+    
+        @keyframes ping {
+          0% {
+            -webkit-transform: scale(0.2);
+                    transform: scale(0.2);
+            opacity: 0.8;
+          }
+          80% {
+            -webkit-transform: scale(1.2);
+                    transform: scale(1.2);
+            opacity: 0.8;
+          }
+        }
